@@ -10,18 +10,18 @@ The ReAct Agent can access 5 functions. There are 10 questions to be solved, 4 o
 
 The score ranges from 1 to 5, with 5 representing complete correctness. Here is an screen shot while running evaluation.
 
-![](./images/agent_task.png)
+![](/images/agent_task.png)
 
 ### 🧐Retrieval Task
 
 Insert the needle(answer) into a haystack(long context) and ask the model **retrieval** the question based on the long context.
 
-![](./images/retrieval_task.png)
+![](/images/retrieval_task.png)
 
 ### 🗣️Format output Task
 
 Evaluate the model's ability to repond in specified format, such as JSON, Number, Python, etc.
-![](./images/format_output_task.png)
+![](/images/format_output_task.png)
 
 ## BenchMark Evaluation
 
