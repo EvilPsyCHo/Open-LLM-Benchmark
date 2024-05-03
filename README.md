@@ -4,7 +4,7 @@ Evaluate the capabilities of open-source LLMs in agent, tool calling, formatted 
 
 ## Example
 
-### 🤖Agent Tasak
+### 🤖Agent Task
 
 The ReAct Agent can access 5 functions. There are 10 questions to be solved, 4 of which are simple questions that can be solved using a single function, and 6 of which are complicated questions that require the agent to use multiple steps to solve. 
 
