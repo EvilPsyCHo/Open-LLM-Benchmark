@@ -18,4 +18,3 @@ def python_interpreter(code: str, timeout: int=None):
             return {"success": False, "content": result.stderr.strip()}
     except subprocess.TimeoutExpired:
         return {"success": False, "content": f"TimeoutExpired: code time out after {timeout} seconds."}
-
