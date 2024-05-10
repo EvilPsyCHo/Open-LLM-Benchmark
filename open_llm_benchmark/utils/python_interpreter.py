@@ -4,7 +4,7 @@ import sys
 
 
 def python_interpreter(code: str, timeout: int=None):
-    "Excute the python code and return the content printed during running process or error information."
+    "Python interpreter excutes the python code and return the printed content or error messages during running process."
     try:
         result = subprocess.run(
             [sys.executable, "-c", code],
